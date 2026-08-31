@@ -91,59 +91,143 @@
     </div>
     <hr style="border: 3px solid #0b1ddc;">
 
-   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 dark-card text-light">
-          <img src="<?= Base_URL. 'assets/kategori/sepeda anak.webp'?>" class="card-img-top" alt="Sepeda Anak">
-          <div class="card-body text-center d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title fw-bold">Sepeda Anak</h5>
-              <p class="card-text text-secondary">Beberapa teks singkat untuk menjelaskan kategori sepeda anak.</p>
-            </div>
-            <a href="#" class="btn btn-warning mt-3">Lihat Semua</a>
-          </div>
-        </div>
-      </div>
+  <div class="row justify-content-center g-4 mb-4">
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 dark-card text-light">
-          <img src="<?= Base_URL. 'assets/kategori/sepeda anak.webp'?>" class="card-img-top" alt="Sepeda Anak">
-          <div class="card-body text-center d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title fw-bold">Sepeda Anak</h5>
-              <p class="card-text text-secondary">Beberapa teks singkat untuk menjelaskan kategori sepeda anak.</p>
-            </div>
-            <a href="#" class="btn btn-warning mt-3">Lihat Semua</a>
-          </div>
-        </div>
-      </div>
+        <!-- Card Sepeda Anak -->
+<div class="container py-5">
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 dark-card text-light">
-          <img src="<?= Base_URL. 'assets/kategori/sepeda anak.webp'?>" class="card-img-top" alt="Sepeda Anak">
-          <div class="card-body text-center d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title fw-bold">Sepeda Anak</h5>
-              <p class="card-text text-secondary">Beberapa teks singkat untuk menjelaskan kategori sepeda anak.</p>
-            </div>
-            <a href="#" class="btn btn-warning mt-3">Lihat Semua</a>
-          </div>
-        </div>
-      </div>
+    <!-- =========================
+         BARIS 1 : 2 CARD
+    ========================== -->
+    <div class="row justify-content-center g-4 mb-4">
 
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 dark-card text-light">
-          <img src="<?= Base_URL. 'assets/kategori/sepeda anak.webp'?>" class="card-img-top" alt="Sepeda Anak">
-          <div class="card-body text-center d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title fw-bold">Sepeda Anak</h5>
-              <p class="card-text text-secondary">Beberapa teks singkat untuk menjelaskan kategori sepeda anak.</p>
+        <!-- Card Sepeda Anak -->
+        <div class="col-12 col-md-6">
+            <div class="card h-100 rounded-0">
+                <img 
+                    src="<?= Base_URL. "assets/kategori/sepeda anak.webp"?>"
+                    class="card-img-top object-fit-contain bg-light-subtle"
+                    style="height: 170px;"
+                    alt="Sepeda Anak"
+                >
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold fs-6">Sepeda Anak</h5>
+                    <p class="card-text text-secondary small">Berbagai pilihan sepeda hadir untuk menemanibersepeda anak Anda</p>
+                     <a href="#" class="btn btn-primary rounded-pill px-4 py-1 fw-bold">Lihat Semua<i class="bi bi-arrow-right-circle-fill ms-2"></i></a>
+                </div>
             </div>
-            <a href="#" class="btn btn-warning mt-3">Lihat Semua</a>
-          </div>
         </div>
-      </div>  
-  </div>
+
+
+        <!-- Card Sepeda BMX -->
+        <div class="col-12 col-md-6">
+            <div class="card h-100 rounded-0">
+                <img 
+                    src="<?= Base_URL. "assets/kategori/sepeda anak.webp"?>"
+                    class="card-img-top object-fit-contain bg-light-subtle"
+                    style="height: 170px;"
+                    alt="Sepeda BMX"
+                >
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold fs-6">Sepeda BMX</h5>
+                    <p class="card-text text-secondary small">Jenis sepeda yang cocok bagi Anda pecinta olahragasepeda ekstrim</p>
+                    <a href="#" 
+                       class="btn btn-primary rounded-pill px-4 py-1 fw-bold">
+                        Lihat Semua
+                        <i class="bi bi-arrow-right-circle-fill ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =========================
+         BARIS 2 : 3 CARD
+    ========================== -->
+    <div class="row justify-content-center g-4">
+        <!-- CTB -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 rounded-0">
+                <div 
+                    class="d-flex justify-content-center align-items-center bg-warning"
+                    style="height: 170px;"
+                >
+                    <span class="fw-bold">Coming Soon</span>
+                </div>
+                <div class="card-body text-center"><h5 class="card-title fw-bold fs-6">CTB</h5>
+                <p class="card-text text-secondary small">Sepeda yang cocok bagi Anda yang ingin bepergiandengan teman-teman untuk meningkatkan kebugaran tubuh</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-1 fw-bold">Lihat Semua<i class="bi bi-arrow-right-circle-fill ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sepeda Lipat -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 rounded-0">
+                <img 
+                    src="<?= Base_URL. "assets/kategori/sepeda anak.webp"?>"
+                    class="card-img-top object-fit-contain bg-light-subtle"
+                    style="height: 170px;"
+                    alt="Sepeda Lipat"
+                >
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold fs-6">Sepeda Lipat</h5>
+                    <p class="card-text text-secondary small">Sepeda lipat yang cocok bagi Anda untuk menjelajahi kota<p>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 py-1 fw-bold">Lihat Semua<i class="bi bi-arrow-right-circle-fill ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sepeda Gunung -->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 rounded-0">
+                <img 
+                    src="<?= Base_URL. "assets/kategori/sepeda anak.webp"?>"
+                    class="card-img-top object-fit-contain bg-light-subtle"
+                    style="height: 170px;"
+                    alt="Sepeda Gunung"
+                >
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold fs-6">Sepeda Gunung (MTB)</h5>
+                    <p class="card-text text-secondary small">Sepeda yang cocok bagi Anda ingin merasakan sepeda gunung serbaguna</p>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 py-1 fw-bold">Lihat Semua<i class="bi bi-arrow-right-circle-fill ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
   <!-- akhir konten -->
+
+  <!-- awal footer -->
+   <div class="row bg-primary ">
+    <div class="col-lg-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Website Resmi GOcycle</h3>
+            <p><i class="bi bi-geo-alt-fill"></i>JL AMD Babakan Pocis Kelurahan Bakti Jaya Kecamatan Setu</p>
+          </div>
+          <div class="col-lg-2">
+            <p class="fw-bold">Shoope Indonesia</p>
+            <p><i class="bi bi-shop"></i> Gocycle Official</p>
+          </div>
+          <div class="col-lg-2">
+            <p class="fw-bold">Tokopedia Indonesia</p>
+            <p><i class="bi bi-shop"></i> Gocycle Official</p>
+          </div>
+          <div class="col-lg-2">2026</div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- akhir footer -->
+
   <!-- AWal Javascript -->
   <script src="<?= Base_URL . "bootstrap/js/bootstrap.bundle.js"; ?>"></script>
   <!-- Akhir Javascript -->
