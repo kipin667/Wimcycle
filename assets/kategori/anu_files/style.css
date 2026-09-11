@@ -1,0 +1,22 @@
+/* 
+ * Theme Name:  Wimcycle
+ * Author:      Tonjoo
+ * Author URI:  https://tonjoo.com
+ * Version:     1.0
+ * Description: Custom made WP Theme for Wimcycle
+ * Text Domain: wimcycle
+ */
+ body {-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}button:focus, input:focus {outline: none !important;}.page-content .content-page {margin-bottom: 140px;}.breadcrumb, .blog-main-content .section-title {text-transform: uppercase;}.contact-info__item a {color: #FFFFFF;}.contact-info__item a:hover {color: #FFB71B;}.date, .author {text-transform: uppercase;}.schedule-item {padding-bottom: 7px;border-bottom: 1px solid #eee;}.schedule-item .day {display: inline-block;font-weight: bold;min-width: 50%;}.schedule-item .hour {float: right;opacity: .65;}.product-detail .accord table {width: 100%;}.product-detail .accord table th {width: 180px;}div.featured-img img {max-height: none;}.footer-socmed path {fill: #ffb71b;}.product-filter-reset {font-size: 14px;color: #999999;line-height: 1.2857142857;margin-bottom: 30px;display: block;}.product-filter-reset i {color: #F34848;}.content-none {margin-bottom: 200px;background: #eee;padding: 20px;}div.msg {background: #ffe6eb;padding: 5px 15px;color: #ba7986;border: 1px solid #e6c1c8;}div.msg.msg-success {background: #d2fadd;border-color: #8cba98;color: #467d54;}.form-input.disabled {background: #f5f5f5;cursor: not-allowed;}.error-msg {margin-top: 10px;text-align: left;}#form select {background: #fff;}@media (max-width:991px) {.schedule-item .hour {float: none;display: block;}.error-msg {text-align: center;padding-left: 0 !important;}}@media (max-width:767px) {.schedule-item .hour {float: right;display: inline-block;}}.radio-type {margin-left: -17px;margin-right: 10px;}
+
+.diskon {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    right: 5px;
+    z-index: 9;
+}
+
+.diskon svg {
+	max-width: 100%;
+    max-height: 100%;
+}

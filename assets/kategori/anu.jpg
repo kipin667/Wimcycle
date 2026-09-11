@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://www.wimcycle.com/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+			<style type="text/css">
+		.product-ecommerce {
+			display: none;
+			flex-direction: column;
+			gap: 10px;
+			align-items: flex-start;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.product-ecommerce.active {
+			display: flex;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.product-ecommerce a.btn-link {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 250px;
+			color: #FFB71B;
+			padding: 5px 15px;
+			position: relative;
+			min-height: 42px;
+		}
+
+		.product-ecommerce a.btn-link:hover {
+			color: #fff;
+			text-decoration: none;
+			border-color: #FFB71B;
+			background-color: #FFB71B;
+		}
+
+		.product-ecommerce a.btn-link span {
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 1;
+			-webkit-box-orient: vertical;
+		}
+
+		.product-ecommerce a.btn-link .img-logo {
+			width: 28px;
+			height: 28px;
+		}
+
+		.dealer-filter {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: unset !important;
+			align-items: unset !important;
+			flex-direction: column;
+		}
+
+		.dealer-filter-container {
+		    display: -ms-flexbox;
+		    display: flex;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    margin-top: 0;
+		}
+
+		@media (min-width: 1920px) {
+		    .dealer-filter-container {
+		        display: block
+		    }
+		}
+
+		@media (max-width: 767px) {
+		    .dealer-filter-container {
+		        -ms-flex-wrap: wrap;
+		        flex-wrap: wrap
+		    }
+		}
+
+		.dealer-list {
+			min-width: 500px;
+		}
+
+		@media (max-width: 767px) {
+		    .dealer-list {
+				min-width: 100%;
+			}
+		}
+
+		.dealer-filter__not-found {
+			/*background-color: aquamarine;*/
+		    font-family: "Montserrat";
+		    font-size: 14px;
+		    font-weight: 600;
+		    text-align: center;
+		    /*margin-top: 20px*/
+		}
+
+		@media (min-width: 1920px) {
+		    .dealer-filter__not-found {
+		        font-size: 16px;
+		        /*text-align: left;*/
+		    }
+		}
+	</style>
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v23.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Wimcycle | Sepeda Anak Indonesia</title>
+	<meta name="description" content="Sepeda anak Indonesia, menyediakan berbagai jenis sepeda mulai dari anak-anak, Sepeda BMX, Sepeda Gunung, City Bike, dan Sepeda Lipat">
+	<link rel="canonical" href="https://www.wimcycle.com/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Wimcycle | Sepeda Anak Indonesia">
+	<meta property="og:description" content="Sepeda anak Indonesia, menyediakan berbagai jenis sepeda mulai dari anak-anak, Sepeda BMX, Sepeda Gunung, City Bike, dan Sepeda Lipat">
+	<meta property="og:url" content="https://www.wimcycle.com/">
+	<meta property="og:site_name" content="Wimcycle">
+	<meta property="article:publisher" content="https://www.facebook.com/wimcycle/">
+	<meta property="article:modified_time" content="2026-01-19T08:36:13+00:00">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Wimcycle | Sepeda Anak Indonesia">
+	<meta name="twitter:description" content="Sepeda anak Indonesia, menyediakan berbagai jenis sepeda mulai dari anak-anak, Sepeda BMX, Sepeda Gunung, City Bike, dan Sepeda Lipat">
+	<meta name="twitter:site" content="@wimcycle">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.wimcycle.com/","url":"https://www.wimcycle.com/","name":"Wimcycle | Sepeda Anak Indonesia","isPartOf":{"@id":"https://www.wimcycle.com/#website"},"about":{"@id":"https://www.wimcycle.com/#organization"},"datePublished":"2020-05-22T15:33:37+00:00","dateModified":"2026-01-19T08:36:13+00:00","description":"Sepeda anak Indonesia, menyediakan berbagai jenis sepeda mulai dari anak-anak, Sepeda BMX, Sepeda Gunung, City Bike, dan Sepeda Lipat","breadcrumb":{"@id":"https://www.wimcycle.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.wimcycle.com/"]}]},{"@type":"BreadcrumbList","@id":"https://www.wimcycle.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.wimcycle.com/#website","url":"https://www.wimcycle.com/","name":"Wimcycle","description":"Official Site - Wimcycle sepeda pilihan keluarga Indonesia","publisher":{"@id":"https://www.wimcycle.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.wimcycle.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.wimcycle.com/#organization","name":"Wimcycle","url":"https://www.wimcycle.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.wimcycle.com/#/schema/logo/image/","url":"https://www.wimcycle.com/wp-content/uploads/2020/07/LOGO-WIMCYCLE.png","contentUrl":"https://www.wimcycle.com/wp-content/uploads/2020/07/LOGO-WIMCYCLE.png","width":1710,"height":459,"caption":"Wimcycle"},"image":{"@id":"https://www.wimcycle.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/wimcycle/","https://x.com/wimcycle","https://www.instagram.com/wimcyclebike/","https://www.youtube.com/channel/UCtS9QzjZaBHrUXFmpOR2vKw"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Wimcycle » Feed" href="https://www.wimcycle.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Wimcycle » Comments Feed" href="https://www.wimcycle.com/comments/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.wimcycle.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="./anu_files/styles.css" media="all">
+<link rel="stylesheet" id="stylesheet-css" href="./anu_files/style.css" media="all">
+<script src="./anu_files/jquery-3.4.0.min.js.download" id="jquery-js"></script>
+<link rel="https://api.w.org/" href="https://www.wimcycle.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://www.wimcycle.com/wp-json/wp/v2/pages/20"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.wimcycle.com/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.1">
+<link rel="shortlink" href="https://www.wimcycle.com/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.wimcycle.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wimcycle.com%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.wimcycle.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.wimcycle.com%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.110.0"><meta name="google-site-verification" content="t71CfSYzQBGVu86lXdE2jmxraqaMz4xeH_xETEvIpeg">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" data-type="lazy" data-src="data:text/javascript;base64," src="data:text/javascript;base64,"></script>
+<script data-type="lazy" data-src="data:text/javascript;base64,DQogIHdpbmRvdy5kYXRhTGF5ZXIgPSB3aW5kb3cuZGF0YUxheWVyIHx8IFtdOw0KICBmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKTt9DQogIGd0YWcoJ2pzJywgbmV3IERhdGUoKSk7DQoNCiAgZ3RhZygnY29uZmlnJywgJ1VBLTE3MTA5ODczNC0xJyk7DQo=" src="data:text/javascript;base64,DQogIHdpbmRvdy5kYXRhTGF5ZXIgPSB3aW5kb3cuZGF0YUxheWVyIHx8IFtdOw0KICBmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKTt9DQogIGd0YWcoJ2pzJywgbmV3IERhdGUoKSk7DQoNCiAgZ3RhZygnY29uZmlnJywgJ1VBLTE3MTA5ODczNC0xJyk7DQo="></script>
+<meta name="ahrefs-site-verification" content="9c22f18ba704468ea371aa7e46df1b4bd5fadf2dc616f5cb7d4614b7505050de">
+<meta name="google-site-verification" content="5BRjCZxTsc20sna7axxGEt5Ds22a7yGUCGx5vQsk0hM">	<style>
+		.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1140px}}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>.col,.no-gutters>[class*="col-"]{padding-right:0;padding-left:0}.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col,.col-auto,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm,.col-sm-auto,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col-md,.col-md-auto,.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg,.col-lg-auto,.col-xl-1,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl,.col-xl-auto{position:relative;width:100%;padding-right:15px;padding-left:15px}.col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}.col-1{-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-2{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-4{-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-5{-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-7{-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-8{-ms-flex:0 0 66.6666666667%;flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-10{-ms-flex:0 0 83.3333333333%;flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-11{-ms-flex:0 0 91.6666666667%;flex:0 0 91.6666666667%;max-width:91.6666666667%}.col-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-first{-ms-flex-order:-1;order:-1}.order-last{-ms-flex-order:13;order:13}.order-0{-ms-flex-order:0;order:0}.order-1{-ms-flex-order:1;order:1}.order-2{-ms-flex-order:2;order:2}.order-3{-ms-flex-order:3;order:3}.order-4{-ms-flex-order:4;order:4}.order-5{-ms-flex-order:5;order:5}.order-6{-ms-flex-order:6;order:6}.order-7{-ms-flex-order:7;order:7}.order-8{-ms-flex-order:8;order:8}.order-9{-ms-flex-order:9;order:9}.order-10{-ms-flex-order:10;order:10}.order-11{-ms-flex-order:11;order:11}.order-12{-ms-flex-order:12;order:12}.offset-1{margin-left:8.3333333333%}.offset-2{margin-left:16.6666666667%}.offset-3{margin-left:25%}.offset-4{margin-left:33.3333333333%}.offset-5{margin-left:41.6666666667%}.offset-6{margin-left:50%}.offset-7{margin-left:58.3333333333%}.offset-8{margin-left:66.6666666667%}.offset-9{margin-left:75%}.offset-10{margin-left:83.3333333333%}.offset-11{margin-left:91.6666666667%}@media (min-width: 576px){.col-sm{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-sm-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}.col-sm-1{-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-sm-2{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-sm-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-sm-4{-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-sm-5{-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-sm-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-sm-7{-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-sm-8{-ms-flex:0 0 66.6666666667%;flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-sm-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-sm-10{-ms-flex:0 0 83.3333333333%;flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-sm-11{-ms-flex:0 0 91.6666666667%;flex:0 0 91.6666666667%;max-width:91.6666666667%}.col-sm-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-sm-first{-ms-flex-order:-1;order:-1}.order-sm-last{-ms-flex-order:13;order:13}.order-sm-0{-ms-flex-order:0;order:0}.order-sm-1{-ms-flex-order:1;order:1}.order-sm-2{-ms-flex-order:2;order:2}.order-sm-3{-ms-flex-order:3;order:3}.order-sm-4{-ms-flex-order:4;order:4}.order-sm-5{-ms-flex-order:5;order:5}.order-sm-6{-ms-flex-order:6;order:6}.order-sm-7{-ms-flex-order:7;order:7}.order-sm-8{-ms-flex-order:8;order:8}.order-sm-9{-ms-flex-order:9;order:9}.order-sm-10{-ms-flex-order:10;order:10}.order-sm-11{-ms-flex-order:11;order:11}.order-sm-12{-ms-flex-order:12;order:12}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.3333333333%}.offset-sm-2{margin-left:16.6666666667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.3333333333%}.offset-sm-5{margin-left:41.6666666667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.3333333333%}.offset-sm-8{margin-left:66.6666666667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.3333333333%}.offset-sm-11{margin-left:91.6666666667%}}@media (min-width: 768px){.col-md{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-md-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}.col-md-1{-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-md-2{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-4{-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-md-5{-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-md-7{-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-md-8{-ms-flex:0 0 66.6666666667%;flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-md-10{-ms-flex:0 0 83.3333333333%;flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-md-11{-ms-flex:0 0 91.6666666667%;flex:0 0 91.6666666667%;max-width:91.6666666667%}.col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-md-first{-ms-flex-order:-1;order:-1}.order-md-last{-ms-flex-order:13;order:13}.order-md-0{-ms-flex-order:0;order:0}.order-md-1{-ms-flex-order:1;order:1}.order-md-2{-ms-flex-order:2;order:2}.order-md-3{-ms-flex-order:3;order:3}.order-md-4{-ms-flex-order:4;order:4}.order-md-5{-ms-flex-order:5;order:5}.order-md-6{-ms-flex-order:6;order:6}.order-md-7{-ms-flex-order:7;order:7}.order-md-8{-ms-flex-order:8;order:8}.order-md-9{-ms-flex-order:9;order:9}.order-md-10{-ms-flex-order:10;order:10}.order-md-11{-ms-flex-order:11;order:11}.order-md-12{-ms-flex-order:12;order:12}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.3333333333%}.offset-md-2{margin-left:16.6666666667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.3333333333%}.offset-md-5{margin-left:41.6666666667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.3333333333%}.offset-md-8{margin-left:66.6666666667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.3333333333%}.offset-md-11{margin-left:91.6666666667%}}@media (min-width: 992px){.col-lg{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-lg-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}.col-lg-1{-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-lg-2{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-lg-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-4{-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-lg-5{-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-lg-7{-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-lg-8{-ms-flex:0 0 66.6666666667%;flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-lg-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-lg-10{-ms-flex:0 0 83.3333333333%;flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-lg-11{-ms-flex:0 0 91.6666666667%;flex:0 0 91.6666666667%;max-width:91.6666666667%}.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-lg-first{-ms-flex-order:-1;order:-1}.order-lg-last{-ms-flex-order:13;order:13}.order-lg-0{-ms-flex-order:0;order:0}.order-lg-1{-ms-flex-order:1;order:1}.order-lg-2{-ms-flex-order:2;order:2}.order-lg-3{-ms-flex-order:3;order:3}.order-lg-4{-ms-flex-order:4;order:4}.order-lg-5{-ms-flex-order:5;order:5}.order-lg-6{-ms-flex-order:6;order:6}.order-lg-7{-ms-flex-order:7;order:7}.order-lg-8{-ms-flex-order:8;order:8}.order-lg-9{-ms-flex-order:9;order:9}.order-lg-10{-ms-flex-order:10;order:10}.order-lg-11{-ms-flex-order:11;order:11}.order-lg-12{-ms-flex-order:12;order:12}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.3333333333%}.offset-lg-2{margin-left:16.6666666667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.3333333333%}.offset-lg-5{margin-left:41.6666666667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.3333333333%}.offset-lg-8{margin-left:66.6666666667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.3333333333%}.offset-lg-11{margin-left:91.6666666667%}}@media (min-width: 1200px){.col-xl{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-xl-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}.col-xl-1{-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-xl-2{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-xl-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-xl-4{-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-xl-5{-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-xl-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-xl-7{-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-xl-8{-ms-flex:0 0 66.6666666667%;flex:0 0 66.6666666667%;max-width:66.6666666667%}.col-xl-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-xl-10{-ms-flex:0 0 83.3333333333%;flex:0 0 83.3333333333%;max-width:83.3333333333%}.col-xl-11{-ms-flex:0 0 91.6666666667%;flex:0 0 91.6666666667%;max-width:91.6666666667%}.col-xl-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.order-xl-first{-ms-flex-order:-1;order:-1}.order-xl-last{-ms-flex-order:13;order:13}.order-xl-0{-ms-flex-order:0;order:0}.order-xl-1{-ms-flex-order:1;order:1}.order-xl-2{-ms-flex-order:2;order:2}.order-xl-3{-ms-flex-order:3;order:3}.order-xl-4{-ms-flex-order:4;order:4}.order-xl-5{-ms-flex-order:5;order:5}.order-xl-6{-ms-flex-order:6;order:6}.order-xl-7{-ms-flex-order:7;order:7}.order-xl-8{-ms-flex-order:8;order:8}.order-xl-9{-ms-flex-order:9;order:9}.order-xl-10{-ms-flex-order:10;order:10}.order-xl-11{-ms-flex-order:11;order:11}.order-xl-12{-ms-flex-order:12;order:12}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.3333333333%}.offset-xl-2{margin-left:16.6666666667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.3333333333%}.offset-xl-5{margin-left:41.6666666667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.3333333333%}.offset-xl-8{margin-left:66.6666666667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.3333333333%}.offset-xl-11{margin-left:91.6666666667%}}*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}[tabindex="-1"]:focus{outline:0 !important}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}abbr[title],abbr[data-original-title]{text-decoration:underline;text-decoration:underline dotted;cursor:help;border-bottom:0;text-decoration-skip-ink:none}address{margin-bottom:1rem;font-style:normal;line-height:inherit}ol,ul,dl{margin-top:0;margin-bottom:1rem}ol ol,ul ul,ol ul,ul ol{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#002856;text-decoration:none;background-color:transparent}a:hover{color:#00040a;text-decoration:none}a:not([href]):not([tabindex]){color:inherit;text-decoration:none}a:not([href]):not([tabindex]):hover,a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}pre,code,kbd,samp{font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto}figure{margin:0 0 1rem}img{vertical-align:middle;border-style:none}svg{overflow:hidden;vertical-align:middle}table{border-collapse:collapse}caption{padding-top:.75rem;padding-bottom:.75rem;color:#6c757d;text-align:left;caption-side:bottom}th{text-align:inherit}label{display:inline-block;margin-bottom:.5rem}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}input,button,select,optgroup,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}select{word-wrap:normal}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button:not(:disabled),[type="button"]:not(:disabled),[type="reset"]:not(:disabled),[type="submit"]:not(:disabled){cursor:pointer}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{padding:0;border-style:none}input[type="radio"],input[type="checkbox"]{box-sizing:border-box;padding:0}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal}progress{vertical-align:baseline}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{outline-offset:-2px;-webkit-appearance:none}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item;cursor:pointer}template{display:none}[hidden]{display:none !important}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;overflow:hidden;display:block;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-track,.slick-slider .slick-list{transform:translate3d(0, 0, 0)}.slick-track{position:relative;left:0;top:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{content:"";display:table}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{float:left;height:100%;min-height:1px;display:none}[dir="rtl"] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.slick-loading .slick-list{background:#fff url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/images/ajax-loader.gif") center center no-repeat}@font-face{font-display: swap;font-family:"slick";src:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/slick.eot");src:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/slick.eot?#iefix") format("embedded-opentype"),url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/slick.woff") format("woff"),url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/slick.ttf") format("truetype"),url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/slick.svg#slick") format("svg");font-weight:normal;font-style:normal}.slick-prev,.slick-next{position:absolute;display:block;height:20px;width:20px;line-height:0px;font-size:0px;cursor:pointer;background:transparent;color:transparent;top:50%;transform:translate(0, -50%);padding:0;border:none;outline:none}.slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus{outline:none;background:transparent;color:transparent}.slick-prev:hover:before,.slick-prev:focus:before,.slick-next:hover:before,.slick-next:focus:before{opacity:1}.slick-prev.slick-disabled:before,.slick-next.slick-disabled:before{opacity:.25}.slick-prev:before,.slick-next:before{font-family:"slick";font-size:20px;line-height:1;color:#fff;opacity:.75;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-prev{left:-25px}[dir="rtl"] .slick-prev{left:auto;right:-25px}.slick-prev:before{content:"←"}[dir="rtl"] .slick-prev:before{content:"→"}.slick-next{right:-25px}[dir="rtl"] .slick-next{left:-25px;right:auto}.slick-next:before{content:"→"}[dir="rtl"] .slick-next:before{content:"←"}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{position:absolute;bottom:-25px;list-style:none;display:block;text-align:center;padding:0;margin:0;width:100%}.slick-dots li{position:relative;display:inline-block;height:20px;width:20px;margin:0 5px;padding:0;cursor:pointer}.slick-dots li button{border:0;background:transparent;display:block;height:20px;width:20px;outline:none;line-height:0px;font-size:0px;color:transparent;padding:5px;cursor:pointer}.slick-dots li button:hover,.slick-dots li button:focus{outline:none}.slick-dots li button:hover:before,.slick-dots li button:focus:before{opacity:1}.slick-dots li button:before{position:absolute;top:0;left:0;content:"•";width:20px;height:20px;font-family:"slick";font-size:6px;line-height:20px;text-align:center;color:#000;opacity:.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-dots li.slick-active button:before{color:#000;opacity:.75}.d-flex{display:-ms-flexbox;display:flex}.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.align-items-center{-ms-flex-align:center;align-items:center}.justify-content-between{-ms-flex-pack:justify;justify-content:space-between}.justify-content-end{-ms-flex-pack:end;justify-content:flex-end}.justify-content-center{-ms-flex-pack:center;justify-content:center}.inline-menu{padding:0;margin:0;list-style-type:none}.inline-menu:before,.inline-menu:after{content:'';display:table;clear:both}.inline-menu>li{display:inline-block;float:left}.text-center{text-align:center}.ml-auto{margin-left:auto}@media (max-width: 767px){.hide-mobile{display:none}.order-m--1{-ms-flex-order:-1;order:-1}.p-m-0{padding:0}}@media (min-width: 768px){.hide-desktop{display:none}}@font-face{font-display: swap;font-family:'Montserrat';src:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/Montserrat/Montserrat-Bold.eot");src:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/Montserrat/Montserrat-Bold.woff") format("woff"),url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}img{max-width:100%}.page-wrapper::after{content:" ";position:fixed;width:100vw;height:100vh;left:0;top:0;/*background-image:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/images/spinner.svg");*/background-color:#fff;z-index:98;background-repeat:no-repeat;background-position:center;background-size:200px}.page-content{opacity:0;transition:opacity .5s}.footer{overflow:hidden}.btn{display:inline-block;line-height:20px;font-family:"Montserrat";font-size:14px;font-weight:600;background-color:#002856;color:#FFF;padding:8px 15px;border-radius:28px;outline:0;text-decoration:none;transition:all ease .2s;border:2px solid #002856;min-width:160px}.btn:hover{color:#fff;text-decoration:none;border-color:#FFB71B;background-color:#FFB71B}.btn-rect{border-radius:0}.btn-grey{background:#eaeaea;color:#000;border-color:#e0e0e0}.btn-grey:hover{background:#eaeaea;color:#000;border-color:#e0e0e0}.btn-arrow-circle{padding:10px 70px 10px 24px;position:relative;text-align:left}.btn-arrow-circle i{width:30px;height:30px;line-height:30px;text-align:center;font-size:20px;background-color:#FFF;color:#002856;border-radius:100%;position:absolute;right:6px;top:50%;transform:translateY(-50%)}.btn-arrow-circle:hover{background-color:#FFB71B;border-color:#FFB71B;color:#fff}.btn-arrow-circle:hover i{color:#FFB71B}.btn-arrow{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;width:-webkit-fit-content;width:fit-content}.btn-arrow i{font-size:20px;margin-left:15px}.btn-invert{background-color:#FFF;border-color:#FFF;color:#002856}.btn-invert i{background-color:#002856;color:#FFF}@media (min-width: 1920px){.btn{min-width:180px}}.header{padding:14px 0;position:fixed;width:100%;z-index:1010;border-radius:0 0 90px 90px;transition:all ease .3s}.header-burger,.header-close{display:none}.header nav{position:relative}.header-logo{margin-right:116px}.header-logo img,.header-logo svg{max-height:52px;width:auto}.header-menu{font-size:16px;font-weight:700;font-family:"Montserrat"}.header-menu>li{margin-right:70px;position:relative}.header-menu a{display:block;color:#002856;text-decoration:none;transition:all ease .3s}.header-menu a:hover{color:#FFB71B}.header-content{width:100%}@media (min-width: 1400px){.header>.container{max-width:calc(100vw - 200px)}}.header .search-icon,.header .search-form{width:40px;height:40px}.header .search-icon{background-color:#FFF;line-height:40px;border-radius:100%;text-align:center;position:absolute;right:0;top:0;transition:all ease .3s;cursor:pointer;border:2px solid #002856}.header .search-icon:hover{background-color:#002856}.header .search-icon:hover path{fill:#fff}.header .search-icon svg{width:18px}.header .search-form{background-color:#002856}.header .search-form input,.header .search-form input:-ms-input-placeholder{color:#fff}.header .search-form input,.header .search-form input::placeholder{color:#fff}.header .search-form .search-icon{background-color:#002856}.header .search-form .search-icon path{fill:#fff}.header .search-form{border-radius:40px;position:relative;transition:all ease .3s;overflow:hidden}.header-search{position:absolute;height:40px;right:0}.header-search input{border:0;background:transparent;color:#002856;position:absolute;top:0;left:0;bottom:0;padding:10px 0 10px 20px;line-height:20px;width:155px;outline:none}.header-search input:-ms-input-placeholder{color:#002856}.header-search input::placeholder{color:#002856}.header-search button{border:0;min-width:40px;right:5px;outline:none}.header-search.searching .search-form{width:200px}.header-search.searching .search-btn{display:none}@media (min-width: 1920px){.header{padding:26px 0}.header>.container{max-width:calc(100vw - 230px)}.header-logo{margin-right:156px}.header-menu>li{margin-right:92px}.header-submenu{font-size:16px}.header .search-icon,.header .search-form{width:58px;height:58px}.header .search-icon{line-height:58px}.header .search-icon svg{width:26px}.header-search{height:58px}.header-search.searching .search-form{width:300px}}@media (min-width: 768px) and (max-width: 1024px){.header{border-radius:0 0 25px 25px}.header-logo{margin-right:60px}.header-logo img,.header-logo svg{max-width:154px}.header-menu>li{margin-right:40px}}@media (min-width: 768px){.header-submenu{position:absolute;left:0;top:calc(100% + 30px);list-style:none;padding:15px;background:#002856;transition:all 0.3s;min-width:240px;z-index:99;border-radius:4px;box-shadow:0 1px 10px rgba(0,0,0,0.2);font-size:14px;font-weight:600;visibility:hidden;opacity:0}.header-submenu a{display:block;padding:5px 0;color:#FFF}.header-submenu:before{content:"";position:absolute;border:11px solid transparent;border-bottom-color:#002856;border-top-width:0;top:-10px;left:15px}.header .menu-item-has-children i{display:none}.header .menu-item-has-children:hover .header-submenu{visibility:visible;opacity:1;top:calc(100% + 10px)}}@media (max-width: 767px){.header{border-radius:0 0 25px 25px;padding:9px 0}.header-logo{margin:0}.header-logo img,.header-logo svg{max-width:154px}.header-burger,.header-close{display:inline-block;width:40px;height:40px;line-height:40px;border-radius:100%;text-align:center}.header-burger{background-color:#002856;color:#FFF;font-size:26px}.header-burger:hover{color:#FFF}.header-close{background-color:#EBEBEB;color:#002856;font-size:20px}.header-search{top:16px;right:16px}.header-menu{margin-top:24px;max-height:calc(100% - 100px);overflow-y:scroll;font-size:14px}.header-menu li{display:block;float:none;border-top:1px solid #E4E4E4;line-height:23px;padding:16px 0;margin:0}.header-menu>li:last-child{border-bottom:1px solid #E4E4E4}.header-submenu{padding:0;display:none}.header-submenu li a{padding-left:30px}.header-caret{position:absolute;right:0;color:#8A8A8A;top:0;font-size:14px;width:40px;text-align:right;height:48px;line-height:48px}.header-caret i{transition:all ease .3s}.header .menu-item-has-children{padding-bottom:0}.header .menu-item-has-children>a{margin-bottom:16px;max-width:calc(100% - 60px)}.header .menu-item-has-children>a::after{content:"";font-family:"Ionicons";position:absolute;right:10px;color:#002856;z-index:-1;font-size:17px}.header .menu-item-has-children.open>a::after{content:""}.header-content{position:fixed;left:0;top:0;width:100vw;height:100%;background-color:#FFF;display:block;padding:16px;transform:translate(100%, 0);transition:all ease .2s}.header.open .header-content{transform:translate(0, 0)}.header .search-icon,.header .search-form{background-color:#002856}.header .search-icon svg path,.header .search-form svg path{fill:#FFF}.header .search-icon input,.header .search-icon input:-ms-input-placeholder,.header .search-form input,.header .search-form input:-ms-input-placeholder{color:#FFF}.header .search-icon input,.header .search-icon input::placeholder,.header .search-form input,.header .search-form input::placeholder{color:#FFF}}.header-var1 header:not(.scrolled) .header-burger{color:#002856;background-color:#FFF}.header.scrolled,.header-var2 .header{background-color:#FFF;box-shadow:0 1px 15px #00000029}.header.scrolled .search-icon,.header-var2 .header .search-icon{background-color:#002856}.header.scrolled .search-icon svg path,.header-var2 .header .search-icon svg path{fill:#FFF}.header.scrolled .search-icon:hover,.header-var2 .header .search-icon:hover{background-color:#FFB71B}.header.scrolled .search-icon:hover path,.header-var2 .header .search-icon:hover path{fill:#FFF}.header.scrolled .search-form,.header-var2 .header .search-form{background-color:#FFB71B}.header.scrolled .search-form .search-icon,.header-var2 .header .search-form .search-icon{background-color:#FFB71B}.header.scrolled .search-form .search-icon path,.header-var2 .header .search-form .search-icon path{fill:#002856}.header.scrolled .search-form input,.header.scrolled .search-form input:-ms-input-placeholder,.header-var2 .header .search-form input,.header-var2 .header .search-form input:-ms-input-placeholder{color:#002856}.header.scrolled .search-form input,.header.scrolled .search-form input::placeholder,.header-var2 .header .search-form input,.header-var2 .header .search-form input::placeholder{color:#002856}.header-var2 .page-content{padding-top:80px}@media (min-width: 1920px){.header-var2 .page-content{padding-top:110px}}@media (max-width: 767px){.header-var2 .page-content{padding-top:70px}}.heading-title{font-size:38px;line-height:48px;font-weight:800;margin-bottom:18px;color:#002856}.heading-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}.heading-desc{font-size:18px;font-weight:600}.heading-page{position:relative;background-color:#a3c7d4;background-blend-mode:multiply;overflow:hidden;height:320px}.heading-page:before{content:'';position:absolute;top:0;left:0;width:400px;height:100%;background-image:url("https://www.wimcycle.com/wp-content/themes/wimcycle/assets/images/slider-var.svg");background-size:100%;background-repeat:no-repeat;z-index:1}.heading-page .heading-title{margin-bottom:5px}.heading-page .container{position:relative;padding-left:65px;margin-top:140px;z-index:1}.heading-page--v2{height:300px;background:#EDF5F8}.heading-page--v2 .container{margin-top:158px}@media (max-width: 767px){.heading-title{font-size:26px;line-height:32px}.heading-desc{font-size:12px}.heading-page{height:192px}.heading-page:before{width:162px}.heading-page .container{padding-left:42px;margin-top:82px}.heading-page--v2{height:unset;min-height:192px}.heading-page--v2 .container{margin-bottom:30px}}@media (min-width: 1920px){.heading-title{font-size:48px;line-height:58px}.heading-page{height:380px}.heading-page:before{width:448px}.heading-page .container{margin-top:175px}}.slider-hero{position:relative;overflow:hidden;max-height:100vh}.slider-hero .slider-box{min-height:500px;position:relative}.slider-hero .slider-box .container{height:100%}.slider-hero .slider-img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center}.slider-hero .slider-img--mobile{display:none}.slider-hero .slider-img--wrapper{padding-top:51.64%}@media (max-width: 567px){.slider-hero .slider-img--desktop{display:none}.slider-hero .slider-img--mobile{display:block}}.slider-hero .slider-title{font-weight:800;font-family:"Montserrat";font-size:30px;color:#002856;margin-bottom:20px}.slider-hero .slider-desc{font-weight:600;font-size:16px;margin-bottom:30px;line-height:1.8}.slider-hero .slider-content{position:absolute;top:48%;transform:translateY(-50%);max-width:450px;z-index:2}.slider-hero .slick-dots{bottom:28px}.slider-hero .slick-dots li{width:12px;height:12px;margin:0 15px}.slider-hero .slick-dots li button:before{content:'';width:12px;height:12px;border:2px solid #FFB71B;border-radius:100%;background:transparent;opacity:1}.slider-hero .slick-dots li.slick-active button:before{background-color:#FFB71B}.slider-hero.slick-dotted{margin-bottom:15px}.slider-hero .slick-prev,.slider-hero .slick-next{z-index:1;width:36px;height:36px;border:3px solid #FFB71B;border-radius:100%;transition:all ease .3s}.slider-hero .slick-prev:before,.slider-hero .slick-next:before{font-family:"Ionicons";font-size:24px;opacity:1;color:#FFB71B}.slider-hero .slick-prev:hover,.slider-hero .slick-next:hover{opacity:.8}.slider-hero .slick-prev{left:80px}.slider-hero .slick-prev:before{content:""}.slider-hero .slick-next{right:80px}.slider-hero .slick-next:before{content:""}@media (max-width: 1399px){.slider-hero .slick-prev{left:30px}.slider-hero .slick-next{right:30px}.slider-hero .slider-box{min-height:350px}}@media (max-width: 767px){.slider-hero{max-height:100vh}.slider-hero .slider-title{font-size:26px}.slider-hero .slider-content{left:0;right:0;top:116px;transform:translateY(0)}.slider-hero .slider-desc{padding:0 15px}.slider-hero .slider-box{text-align:center;max-height:100vh}.slider-hero .slider-img{max-height:100vh}.slider-hero .slider-img--wrapper{height:100%;padding-top:170%}.slider-hero .btn-invert{padding:11px 50px 11px 20px;font-weight:700}.slider-hero .slick-prev,.slider-hero .slick-next{display:none}}@media (min-width: 1920px){.slider-hero .slider-box .container{padding-left:0;margin-left:248px}.slider-hero .slider-content{max-width:30%}.slider-hero .slider-title{font-size:46px;line-height:58px}.slider-hero .slider-desc{font-size:20px;margin-bottom:50px}.slider-hero .slick-prev,.slider-hero .slick-next{width:48px;height:48px}.slider-hero .slick-prev:before,.slider-hero .slick-next:before{font-size:30px}.slider-hero .btn-arrow-circle{padding:16px 84px 16px 22px}}.section{padding:60px 0}.section-title{font-size:28px;margin-bottom:20px;color:#002856}.section-title--sm{font-size:24px}.section-desc{margin:0 auto 30px;font-weight:600;max-width:575px;font-size:16px}.section-line{border-top:1px solid #FFB71B;position:relative}.section-line:after{content:'';width:132px;height:3px;background-color:#FFB71B;position:absolute;left:50%;transform:translateX(-50%);bottom:0}.section-line--sm:after{width:122px}.section-line--left:after{left:0;transform:none}.section-heading{text-align:center;margin-bottom:40px}.section-heading--left{text-align:left}@media (min-width: 1920px){.section{padding:75px 0}.section-title{font-size:36px}.section-title--sm{font-size:24px}.section-desc{max-width:756px;font-size:21px}}@media (max-width: 991px){.section-title--sm{font-size:20px;margin-bottom:10px}}@media (max-width: 767px){.section{padding:30px 0}.section-title{font-size:26px;line-height:32px;margin-bottom:10px}.section-title--sm{font-size:20px}.section-desc{font-size:15px}}
+	</style>
+		<link rel="shortcut icon" href="https://www.wimcycle.com/wp-content/uploads/2020/06/favicon-wimcycle.png?x30018">
+			<style id="wp-custom-css">
+			.video-box img, .content img {height: auto;}.product-detail .accord-title h3 {font-size: 16px;font-weight: 600;color: #002856;line-height: 32px;padding: 5px 0;cursor: pointer;}.dealer-filter__title h1 {font-size: 19px;font-weight: 800;}.content-detail__dealer .section-title--v2 h1 {font-size: 30px;margin-bottom: 18px;font-weight: 800;}@media (max-width: 767px) {.content-detail__dealer .section-title--v2 h1 {font-size: 20px;}}		</style>
+			<style id="custom-cursor" type="text/css">body button, body [type='button'], body input[type='reset'], body input[type='submit'], body [role="button"], ::-webkit-search-cancel-button, ::-webkit-search-decoration, ::-webkit-scrollbar-button, ::-webkit-file-upload-button, [role^=button], .cc_pointer, [type="search"]::-webkit-search-cancel-button, a, select, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img,  ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon, body .custom-cursor-on-hover {cursor: url("data:image/png;base64,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") 13 1, pointer !important;} html,body,body select,body .custom-cursor-default-hover {cursor: url("data:image/png;base64,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") 1 1, auto !important;}</style><div>
+					<link rel="stylesheet" type="text/css" href="./anu_files/main.min.css">
+		
+		<link rel="stylesheet" href="./anu_files/fonts.min.css">
+	</div><script src="./anu_files/wp-emoji-release.min.js.download" defer=""></script></head>
+
+	<body class="home page-template page-template-templates page-template-template-homepage page-template-templatestemplate-homepage-php page page-id-20 header-var1">
+		<div class="page-wrapper">
+
+			<!-- ./START - Header -->
+			<header class="header scrolled">
+				<div class="container">
+					<nav class="d-flex align-items-center justify-content-between">
+						<h1>
+						<a href="https://www.wimcycle.com/" class="header-logo">
+															<img src="./anu_files/LOGO-WIMCYCLE-e1670387342889.png" alt="Wimcycle" width="300" height="81">
+														</a>
+						</h1>
+						<div class="header-burger"><i class="ion-android-menu"></i></div>
+
+						<div class="header-content d-flex align-items-center justify-content-between">
+							<a href="https://www.wimcycle.com/#" class="header-close"><i class="ion-close-round"></i></a>
+
+							<ul id="menu-main" class="inline-menu header-menu"><li id="menu-item-11184" class="menu-item menu-item-type-post_type_archive menu-item-object-product menu-item-has-children menu-item-11184"><a href="https://www.wimcycle.com/produk/">Produk</a>
+<ul class="header-submenu">
+	<li id="menu-item-515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-515"><a href="https://www.wimcycle.com/product?filter_category=sepeda-bmx">BMX</a></li>
+	<li id="menu-item-516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-516"><a href="https://www.wimcycle.com/product?filter_category=sepeda-anak">Sepeda Anak</a></li>
+	<li id="menu-item-519" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-519"><a href="https://www.wimcycle.com/product?filter_category=sepeda-mtb">MTB</a></li>
+	<li id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-518"><a href="https://www.wimcycle.com/product?filter_category=sepeda-lipat">Sepeda Lipat</a></li>
+</ul>
+</li>
+<li id="menu-item-21945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21945"><a href="https://www.wimcycle.com/#">Dukungan</a>
+<ul class="header-submenu">
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://www.wimcycle.com/kontak-kami/">Kontak Kami</a></li>
+	<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://www.wimcycle.com/garansi/">Garansi</a></li>
+	<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-969"><a href="https://www.wimcycle.com/registrasi-sepeda/">Registrasi Sepeda</a></li>
+	<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://www.wimcycle.com/panduan-ukuran-sepeda/">Panduan Ukuran Sepeda</a></li>
+</ul>
+</li>
+<li id="menu-item-1603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"><a href="https://www.wimcycle.com/dealer-sepeda-wimcycle/">Dealer</a></li>
+<li id="menu-item-5208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5208"><a href="https://www.wimcycle.com/blog/">Blog</a></li>
+<li id="menu-item-8202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8202"><a href="https://www.wimcycle.com/wimmers-fun-day/">Wimmers Fun Day</a></li>
+</ul>
+							<div class="header-search">
+								<form action="https://www.wimcycle.com/" class="search-form">
+									<input type="text" placeholder="Cari disini..." name="s">
+									<button type="submit" class="search-icon d-flex align-items-center justify-content-center">
+										<svg xmlns="http://www.w3.org/2000/svg" width="25.365" height="26.009" viewBox="0 0 25.365 26.009"><defs><style>.b{fill:#002856;}</style></defs><path class="b" d="M5169.305,347.237a10.625,10.625,0,1,0-3.269,3.01l5.5,5.537a2.224,2.224,0,0,0,3.225-3.063c-.026-.028-.052-.054-.081-.081Zm-8.68.726a6.854,6.854,0,1,1,6.85-6.866,6.854,6.854,0,0,1-6.85,6.866Z" transform="translate(-5150.003 -330.467)"></path></svg>									</button>
+								</form>
+								<div class="search-icon d-flex align-items-center justify-content-center search-btn">
+									<svg xmlns="http://www.w3.org/2000/svg" width="25.365" height="26.009" viewBox="0 0 25.365 26.009"><defs><style>.b{fill:#002856;}</style></defs><path class="b" d="M5169.305,347.237a10.625,10.625,0,1,0-3.269,3.01l5.5,5.537a2.224,2.224,0,0,0,3.225-3.063c-.026-.028-.052-.054-.081-.081Zm-8.68.726a6.854,6.854,0,1,1,6.85-6.866,6.854,6.854,0,0,1-6.85,6.866Z" transform="translate(-5150.003 -330.467)"></path></svg>								</div>
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+			</header>
+			<!-- ./END - Header -->
+<div class="page-content homepage-content">
+
+	
+		<div class="slider-hero slick-initialized slick-slider slick-dotted" role="toolbar"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="">Previous</button>
+
+							<div aria-live="polite" class="slick-list draggable"><div class="slick-track" role="listbox" style="opacity: 1; width: 5404px;"><a href="https://www.wimcycle.com/produk/pushbike/" class="slider-box slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00" style="width: 1351px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;">
+					<div class="slider-img--wrapper">
+						<img src="./anu_files/dekstop-web.jpg" alt="" class="slider-img">
+					</div>
+				</a><a href="https://www.wimcycle.com/produk/sepeda-anak/mtb-roadtech-26/" class="slider-box slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 1351px; position: relative; left: -1351px; top: 0px; z-index: 998; opacity: 0;">
+					<div class="slider-img--wrapper">
+						<img src="./anu_files/dekstop-web-2.jpg" alt="" class="slider-img">
+					</div>
+				</a><a href="https://www.wimcycle.com/produk/sepeda-anak/bmx-dragster-oki-nirmala-18/" class="slider-box slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02" style="width: 1351px; position: relative; left: -2702px; top: 0px; z-index: 998; opacity: 0;">
+					<div class="slider-img--wrapper">
+						<img src="./anu_files/dekstop-web(1).jpg" alt="" class="slider-img">
+					</div>
+				</a><a href="https://www.wimcycle.com/produk/sepeda-bmx/bmx-firebird-18/" class="slider-box slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03" style="width: 1351px; position: relative; left: -4053px; top: 0px; z-index: 998; opacity: 0;">
+					<div class="slider-img--wrapper">
+						<img src="./anu_files/MicrosoftTeams-image-174.jpg" alt="" class="slider-img">
+					</div>
+				</a></div></div>
+
+								
+
+								
+
+								
+
+				
+		<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="">Next</button><ul class="slick-dots" style="" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation03" id="slick-slide03"><button type="button" data-role="none" role="button" tabindex="0">4</button></li></ul></div>
+
+	
+	<div class="container">
+
+		<div class="section text-center productcat">
+
+			
+			<div class="section-heading">
+				
+									<h1 class="section-title">SEPEDA WIMCYCLE</h1>
+				
+									<div class="section-desc">Wimcycle menawarkan rangkaian sepeda berkualitas dengan desain yang stylish dan nyaman sesuai kebutuhan bersepeda keluarga anda!</div>
+				
+				<div class="section-line"></div>
+			</div>
+
+							<div class="productcat-wrapper">
+					<div class="row justify-content-center">
+													
+							<div class="col productcat-col">
+								<a href="https://www.wimcycle.com/produk/sepeda-anak/" class="productcat-box">
+
+																			<div class="d-flex justify-content-center productcat-img lazy-load--wrapper fade-in">
+											<img data-src="https://www.wimcycle.com/wp-content/uploads/2021/02/COVER-PRODUK_YUNA-e1670388210341-548x350.jpg?x30018" alt="" src="./anu_files/COVER-PRODUK_YUNA-e1670388210341-548x350.jpg" class="fade-in">
+										</div>
+									
+									<h4 class="productcat-title">Sepeda Anak</h4>
+									
+									<div class="productcat-desc">
+										Berbagai pilihan sepeda hadir untuk menemani bersepeda anak Anda									</div>
+
+									</a><a href="https://www.wimcycle.com/produk/sepeda-anak/" class="btn btn-arrow-circle">
+										Lihat Semua										<i class="ion-android-arrow-forward"></i>
+									</a>
+								
+							</div>
+
+													
+							<div class="col productcat-col">
+								<a href="https://www.wimcycle.com/produk/sepeda-bmx/" class="productcat-box">
+
+																			<div class="d-flex justify-content-center productcat-img lazy-load--wrapper fade-in">
+											<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/07/BMX-3-547x350.jpg?x30018" alt="" src="./anu_files/BMX-3-547x350.jpg" class="fade-in">
+										</div>
+									
+									<h4 class="productcat-title">Sepeda BMX</h4>
+									
+									<div class="productcat-desc">
+										Jenis sepeda yang cocok bagi Anda pecinta olahraga sepeda ekstrim, melakukan trik dan gerakan memukau									</div>
+
+									</a><a href="https://www.wimcycle.com/produk/sepeda-bmx/" class="btn btn-arrow-circle">
+										Lihat Semua										<i class="ion-android-arrow-forward"></i>
+									</a>
+								
+							</div>
+
+						</div><div class="row justify-content-center">							
+							<div class="col productcat-col">
+								<a href="https://www.wimcycle.com/#" class="productcat-box">
+
+																			<div class="d-flex justify-content-center productcat-img lazy-load--wrapper fade-in">
+											<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/06/CTB-1-352x350.jpg?x30018" alt="" src="./anu_files/CTB-1-352x350.jpg" class="fade-in">
+										</div>
+									
+									<h4 class="productcat-title">CTB</h4>
+									
+									<div class="productcat-desc">
+										Sepeda yang cocok bagi Anda yang ingin berpergian dengan teman-teman untuk meningkatkan kebugatan tubuh									</div>
+
+									</a><a href="https://www.wimcycle.com/#" class="btn btn-arrow-circle">
+										Lihat Semua										<i class="ion-android-arrow-forward"></i>
+									</a>
+								
+							</div>
+
+													
+							<div class="col productcat-col">
+								<a href="https://www.wimcycle.com/produk/sepeda-lipat/" class="productcat-box">
+
+																			<div class="d-flex justify-content-center productcat-img lazy-load--wrapper fade-in">
+											<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/07/Sepeda-Lipat-16-352x350.jpg?x30018" alt="" src="./anu_files/Sepeda-Lipat-16-352x350.jpg" class="fade-in">
+										</div>
+									
+									<h4 class="productcat-title">Sepeda Lipat</h4>
+									
+									<div class="productcat-desc">
+										Sepeda lipat yang cocok bagi Anda untuk menjelajahi kota									</div>
+
+									</a><a href="https://www.wimcycle.com/produk/sepeda-lipat/" class="btn btn-arrow-circle">
+										Lihat Semua										<i class="ion-android-arrow-forward"></i>
+									</a>
+								
+							</div>
+
+													
+							<div class="col productcat-col">
+								<a href="https://www.wimcycle.com/produk/sepeda-mtb/" class="productcat-box">
+
+																			<div class="d-flex justify-content-center productcat-img lazy-load--wrapper fade-in">
+											<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/11/COVER_MTB-352x350.jpg?x30018" alt="" src="./anu_files/COVER_MTB-352x350.jpg" class="fade-in">
+										</div>
+									
+									<h4 class="productcat-title">Sepeda Gunung (MTB)</h4>
+									
+									<div class="productcat-desc">
+										Sepeda yang cocok bagi Anda ingin merasakan sepeda gunung serbaguna untuk off-road ringan di akhir pekan									</div>
+
+									</a><a href="https://www.wimcycle.com/produk/sepeda-mtb/" class="btn btn-arrow-circle">
+										Lihat Semua										<i class="ion-android-arrow-forward"></i>
+									</a>
+								
+							</div>
+
+						
+					</div>
+				</div>
+
+									
+		</div>
+
+				<div class="section section-latest section-latest--product">
+			<div class="section-heading">
+				
+									<h1 class="section-title">PRODUK TERBARU WIMCYCLE</h1>
+				
+									<div class="section-desc">Nantikan produk terbaru dari Wimcycle dengan design lebih fresh dan colorful </div>
+				
+				<div class="section-line"></div>
+			</div>
+
+			<div class="d-flex align-items-center justify-content-center latest-wrapper">
+
+									<div class="latest-img lazy-load--wrapper fade-in">
+						<img data-src="https://www.wimcycle.com/wp-content/uploads/2023/10/MY23-BIGFOOT22-TRUCK-P1-1-467x350.jpg?x30018" alt="" src="./anu_files/MY23-BIGFOOT22-TRUCK-P1-1-467x350.jpg" class="fade-in">
+					</div>
+				
+				<div class="latest-content">
+
+					
+											<h3 class="latest-title">BMX Big foot Road 20"</h3>
+					
+											<div class="latest-desc">epeda BMX Bigfoot "Road" hadir dengan improvement dari seri sebelumnya "Solid Series", Seri "Road" menjawab semua pertanyaan Anda mengenai Big Foot yang tampil agresif dan Arogan. Hadir dengan warna baru Red Light &amp; Green Light.</div>
+					
+											<a href="https://www.wimcycle.com/produk/sepeda-bmx/bmx-big-foot-road-20/" class="btn btn-arrow-circle">
+							Lihat Semua 
+							<i class="ion-android-arrow-forward"></i>
+						</a>
+					
+				</div>
+			</div>
+		</div>
+		
+				<div class="section section-latest section-latest--information">
+			<div class="section-heading">
+				
+									<h2 class="section-title">INFORMASI TERBARU</h2>
+				
+									<div class="section-desc">Temukan kumpulan tips bersepeda dengan keluarga dari Wimcycle</div>
+				
+				<div class="section-line"></div>
+			</div>
+
+			<div class="d-flex align-items-center justify-content-center latest-wrapper">
+
+									<div class="latest-img lazy-load--wrapper fade-in">
+												<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/07/WEBSITE-2.jpg?x30018" alt="" src="./anu_files/WEBSITE-2.jpg" class="fade-in">
+											</div>
+				
+				<div class="latest-content">
+
+											<h3 class="latest-title">Perlengkapan Yang Perlu di Siapkan Sebelum Bersepeda</h3>
+					
+					
+											<a href="https://www.wimcycle.com/perlengkapan-yang-perlu-di-persiapkan-sebelum-bersepeda/" class="btn btn-arrow-circle">
+							Baca Lebih Lanjut							<i class="ion-android-arrow-forward"></i>
+						</a>
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+		<footer class="footer">
+						<img data-src="https://www.wimcycle.com/wp-content/uploads/2020/06/bg-footer.jpg?x30018" alt="" class="bg-footer fade-in" src="./anu_files/bg-footer.jpg">
+			<div class="container">
+				<div class="footer-area">
+					<div class="row">
+						<div class="col-md-6 col-lg-6">
+							<div class="footer-subs">
+										<div id="mc_embed_signup" class="subscribe-form">
+			<form action="https://wimcycle.us10.list-manage.com/subscribe/post?u=00c3e79dff5115450900b4e6d&amp;id=efe7d270ec" method="post" name="mc-embedded-subscribe-form" class="d-flex" target="_blank" novalidate="">
+				<input type="email" class="subscribe-email" name="EMAIL" placeholder="Alamat Email Anda">
+				<button type="submit" class="subscribe-btn" name="subscribe">Berlangganan</button>
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_00c3e79dff5115450900b4e6d_efe7d270ec" tabindex="-1" value=""></div>
+			</form>
+			<div class="error-msg"></div>
+		</div>
+	
+	<script type="text/javascript">
+		function ValidateEmail(email) {
+			var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			if (email.match( mailformat )) {
+				return (true)
+			} 
+			return (false)
+		}
+		jQuery(function($){
+			$(".subscribe-btn").on("click", function(){
+				var parents = $(this).parents(".subscribe-form");
+				var email   = parents.find(".subscribe-email").val();
+				if( email.length ) {
+					if ( !ValidateEmail( email ) ) {
+						parents.find(".error-msg").html("Email tidak valid");
+						return false;
+					}
+				} else {
+					parents.find(".error-msg").html( "Email wajib diisi." );
+					return false;
+				}
+			});
+		});
+	</script>
+
+								</div>
+
+							<div class="footer-socmed">
+								<div class="footer-title">Ikuti Kami</div>
+								<ul class="inline-menu">
+																			<li>
+											<a href="https://www.instagram.com/wimcyclebike/" target="_blank" rel="nofollow">
+												<svg xmlns="http://www.w3.org/2000/svg" width="41.513" height="39.899" viewBox="0 0 41.513 39.899"><defs><style>.ig{fill:#ffb71b;}</style></defs><path class="ig" d="M3513.55,4330.5a3.973,3.973,0,1,1-3.972-3.972A3.973,3.973,0,0,1,3513.55,4330.5Z" transform="translate(-3488.821 -4310.548)"></path><path class="a" d="M3515.293,4319.891a3.949,3.949,0,0,0-2.262-2.261,6.586,6.586,0,0,0-2.213-.409c-1.257-.058-1.634-.071-4.816-.071s-3.561.012-4.817.07a6.6,6.6,0,0,0-2.213.41,3.953,3.953,0,0,0-2.263,2.261,6.617,6.617,0,0,0-.409,2.214c-.058,1.256-.071,1.634-.071,4.817s.012,3.559.07,4.815a6.617,6.617,0,0,0,.41,2.213,3.951,3.951,0,0,0,2.262,2.262,6.591,6.591,0,0,0,2.213.41c1.257.058,1.634.069,4.816.069s3.56-.012,4.816-.069a6.606,6.606,0,0,0,2.214-.41,3.954,3.954,0,0,0,2.262-2.262,6.624,6.624,0,0,0,.41-2.213c.057-1.257.07-1.633.07-4.815s-.013-3.561-.07-4.817A6.6,6.6,0,0,0,3515.293,4319.891Zm-9.291,13.15a6.12,6.12,0,1,1,6.12-6.12A6.119,6.119,0,0,1,3506,4333.041Zm6.362-11.052a1.43,1.43,0,1,1,1.43-1.43A1.43,1.43,0,0,1,3512.365,4321.989Z" transform="translate(-3485.245 -4306.972)"></path><path class="a" d="M3499.228,4299.391c-11.462,0-20.757,8.933-20.757,19.949s9.294,19.951,20.756,19.951,20.757-8.934,20.758-19.951S3510.69,4299.391,3499.228,4299.391Zm11.846,24.672a8.1,8.1,0,0,1-.554,2.781,5.981,5.981,0,0,1-3.486,3.35,9.085,9.085,0,0,1-2.893.533c-1.271.055-1.677.068-4.914.068s-3.644-.013-4.915-.068a9.087,9.087,0,0,1-2.893-.533,5.877,5.877,0,0,1-2.111-1.32,5.615,5.615,0,0,1-1.375-2.029,8.141,8.141,0,0,1-.553-2.781c-.059-1.222-.072-1.612-.072-4.724s.013-3.5.072-4.723a8.111,8.111,0,0,1,.553-2.78,5.592,5.592,0,0,1,1.375-2.029,5.874,5.874,0,0,1,2.111-1.322,9.08,9.08,0,0,1,2.894-.532c1.27-.055,1.677-.069,4.914-.069s3.642.014,4.914.069a9.078,9.078,0,0,1,2.893.532,5.861,5.861,0,0,1,2.111,1.322,5.6,5.6,0,0,1,1.375,2.029,8.12,8.12,0,0,1,.554,2.78c.058,1.223.072,1.612.072,4.723S3511.132,4322.842,3511.074,4324.063Z" transform="translate(-3478.471 -4299.391)"></path></svg>											</a>
+										</li>
+																			<li>
+											<a href="https://twitter.com/wimcycle" target="_blank" rel="nofollow">
+												<svg xmlns="http://www.w3.org/2000/svg" width="41.513" height="39.898" viewBox="0 0 41.513 39.898"><defs><style>.twt{fill:#ffb71b;}</style></defs><path class="twt" d="M3606.754,4299.392c-11.462,0-20.756,8.933-20.757,19.95s9.295,19.948,20.756,19.948,20.756-8.933,20.756-19.948S3618.215,4299.392,3606.754,4299.392Zm9.477,15.554q.014.3.014.592a13.191,13.191,0,0,1-13.555,13.028h0a13.879,13.879,0,0,1-7.3-2.057,10.029,10.029,0,0,0,1.136.063,9.81,9.81,0,0,0,5.917-1.96,4.75,4.75,0,0,1-4.451-3.181,4.881,4.881,0,0,0,.9.083,4.968,4.968,0,0,0,1.256-.161,4.63,4.63,0,0,1-3.822-4.488c0-.021,0-.039,0-.059a4.882,4.882,0,0,0,2.158.572,4.529,4.529,0,0,1-2.121-3.812,4.424,4.424,0,0,1,.646-2.3,13.715,13.715,0,0,0,9.82,4.784,4.393,4.393,0,0,1-.124-1.044,4.675,4.675,0,0,1,4.765-4.579,4.854,4.854,0,0,1,3.478,1.447,9.793,9.793,0,0,0,3.025-1.111,4.637,4.637,0,0,1-2.1,2.533,9.789,9.789,0,0,0,2.736-.721A9.463,9.463,0,0,1,3616.23,4314.946Z" transform="translate(-3585.997 -4299.392)"></path></svg>											</a>
+										</li>
+																			<li>
+											<a href="https://www.youtube.com/channel/UCtS9QzjZaBHrUXFmpOR2vKw?view_as=subscriber" target="_blank" rel="nofollow">
+												<svg xmlns="http://www.w3.org/2000/svg" width="41.513" height="39.898" viewBox="0 0 41.513 39.898"><defs><style>.yt{fill:#ffb71b;}</style></defs><path class="yt" d="M3722.9,4334.439l6.752-3.888-6.752-3.889Z" transform="translate(-3704.728 -4310.601)"></path><path class="a" d="M3714.278,4299.393c-11.461,0-20.756,8.933-20.756,19.95s9.295,19.948,20.756,19.948,20.757-8.934,20.757-19.948S3725.74,4299.393,3714.278,4299.393Zm12.969,19.969a31.633,31.633,0,0,1-.535,6,3.185,3.185,0,0,1-2.286,2.2c-2.029.515-10.149.515-10.149.515s-8.1,0-10.15-.534a3.188,3.188,0,0,1-2.285-2.2,33.907,33.907,0,0,1,0-11.993,3.251,3.251,0,0,1,2.286-2.218c2.03-.514,10.149-.514,10.149-.514s8.119,0,10.15.534a3.192,3.192,0,0,1,2.286,2.2A30.075,30.075,0,0,1,3727.248,4319.362Z" transform="translate(-3693.522 -4299.393)"></path></svg>											</a>
+										</li>
+																			<li>
+											<a href="https://www.facebook.com/wimcycle/" target="_blank" rel="nofollow">
+												<svg xmlns="http://www.w3.org/2000/svg" width="41.513" height="39.898" viewBox="0 0 41.513 39.898"><defs><style>.fb{fill:#ffb71b;}</style></defs><path class="fb" d="M3842.56,4319.341c0-11.016-9.295-19.949-20.756-19.949s-20.757,8.933-20.757,19.949,9.294,19.949,20.756,19.949c.122,0,.244,0,.365,0v-15.529h-4.459v-4.995h4.459v-3.676c0-4.263,2.707-6.583,6.664-6.583a38.116,38.116,0,0,1,4,.2v4.455H3830.1c-2.153,0-2.57.983-2.57,2.426v3.182h5.147l-.671,4.995h-4.476v14.763A20.1,20.1,0,0,0,3842.56,4319.341Z" transform="translate(-3801.047 -4299.392)"></path></svg>											</a>
+										</li>
+																	</ul>
+							</div>
+						</div>
+						
+														<div class="col-md-6 col-lg-2 footer-menu">
+									<div class="footer-title">
+										Dukungan									</div>
+									<ul id="menu-dukungan" class=""><li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="https://www.wimcycle.com/kontak-kami/">Kontak Kami</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://www.wimcycle.com/garansi/">Garansi</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="https://www.wimcycle.com/panduan-ukuran-sepeda/">Panduan Ukuran</a></li>
+<li id="menu-item-968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-968"><a href="https://www.wimcycle.com/registrasi-sepeda/">Registrasi Sepeda</a></li>
+<li id="menu-item-912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-912"><a href="https://www.wimcycle.com/wp-content/uploads/2020/07/BUKU-MANUAL-WIMCYCLE.pdf?x30018">Buku Manual</a></li>
+</ul>								</div>
+																<div class="col-md-6 col-lg-2 footer-menu">
+									<div class="footer-title">
+										Produk									</div>
+									<ul id="menu-produk" class=""><li id="menu-item-535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a href="https://www.wimcycle.com/product/?filter_category=kids">Sepeda Anak</a></li>
+<li id="menu-item-536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a href="https://www.wimcycle.com/product/?filter_category=bmx">BMX</a></li>
+<li id="menu-item-538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a href="https://www.wimcycle.com/product/?filter_category=ctb">CTB</a></li>
+<li id="menu-item-539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-539"><a href="https://www.wimcycle.com/product/?filter_category=mtb">MTB</a></li>
+<li id="menu-item-537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a href="https://www.wimcycle.com/product/?filter_category=folding-bike">Sepeda Lipat</a></li>
+</ul>								</div>
+																<div class="col-md-6 col-lg-2 footer-menu">
+									<div class="footer-title">
+										Tentang Kami									</div>
+									<ul id="menu-tentang-kami" class=""><li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://www.wimcycle.com/blog/">Blog</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://www.wimcycle.com/history/">Sejarah</a></li>
+<li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="https://www.wimcycle.com/dealer-sepeda-wimcycle/">Dealer</a></li>
+<li id="menu-item-97" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href="https://www.wimcycle.com/event">Acara</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://www.wimcycle.com/karir/">Karir</a></li>
+<li id="menu-item-507" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-507"><a href="https://www.wimcycle.com/sepeda/">Arsip Produk</a></li>
+</ul>								</div>
+													</div>
+				</div>
+				<div class="d-flex justify-content-between footer-copyright">
+					<div>© 2023 Wimcycle. All Rights Reserved.</div>
+					<ul id="menu-tentang-kami-1" class="inline-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://www.wimcycle.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://www.wimcycle.com/history/">Sejarah</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="https://www.wimcycle.com/dealer-sepeda-wimcycle/">Dealer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href="https://www.wimcycle.com/event">Acara</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://www.wimcycle.com/karir/">Karir</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-507"><a href="https://www.wimcycle.com/sepeda/">Arsip Produk</a></li>
+</ul>				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- ./END - Wrapper -->
+
+		<script>
+		const counter_url = 'https://www.wimcycle.com/wp-content/plugins/page-view-counter/wordpress-pageview-counter/pv-counter.php';
+		const counter_data = 'type=1&id=20';
+
+		var request = new XMLHttpRequest();
+		request.open( 'POST', counter_url, true );
+		request.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8' );
+		request.send( counter_data );
+	</script>
+	<script src="./anu_files/index.js.download" id="swv-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"https:\/\/www.wimcycle.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+</script>
+<script src="./anu_files/index(1).js.download" id="contact-form-7-js"></script>
+<script defer="" src="./anu_files/slick.min.js.download" id="slick-js"></script>
+<script defer="" src="./anu_files/img-observer.min.js.download" id="img-observer-js"></script>
+<script defer="" src="./anu_files/main.min.js.download" id="main-js"></script>
+<script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,5*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
+function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>
+    	
+
+	<script type="text/javascript">
+		var loadDeferredStyles = function() {
+				var e = document.getElementById("deferred-styles");
+				if (e) {
+					var t = document.createElement("div");
+					t.innerHTML = e.textContent, document.head.appendChild(t), e.parentElement.removeChild(e)
+				}
+			},
+			raf = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+		raf ? raf(function() {
+			window.setTimeout(loadDeferredStyles, 0)
+		}) : window.addEventListener("DOMContentLoaded", loadDeferredStyles);
+	</script>
+
+	
+	
+	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a34142dc1b6ec61e',t:'MTc4ODIzNDEwNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;" src="./anu_files/saved_resource.html"></iframe>
+
+</body></html>
