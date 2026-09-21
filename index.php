@@ -6,7 +6,12 @@
    include 'includes/baseURL.php';
    include "includes/header_user.php";
    include "includes/banner.php";
+
+        $sql = "SELECT * FROM tb_kategori";
+        $sql_eksekusi = mysqli_query($koneksi, $sql);
+        
 ?>
+
 
 
 
@@ -15,11 +20,24 @@
     <div class="container">
         <div class="row my-5 g-4">
             <div class="col-lg-12 text-center">
-                <h2>sepeda Wimcycle</h2>
+                <h2>Kategori Sepeda Wimcycle</h2>
                 <p style="margin: 10px 20% 0px 20%">Wimcycle menawarkan rangkaian sepeda berkualitas dengan desain yang stylish dan nyaman sesuai kebutuhan bersepeda keluarga anda!</p>
             </div>
         </div>
         <hr style="border: 2px solid #fbb41b">
+        
+        <?php while($data_kategori = mysqli_fetch_array($sql_eksekusi)) :?>
+        <div class="col-lg-4">
+            <div class="card">
+                <img src="<?php echo base_url; ?>assets/kategori/kategori3.jpg" class="card-img-top" alt="..." style="height: 450px; object-fit: contain;">
+                <div class="card-body text-center">
+                    <h5 class="card-title"><?= $data_kategori['nama_kategori']?></h5>
+                    <p class="card-text"></p>
+                    <a href="" class="btn btn-primary">Lihat semua <i class="bi bi-arrow-right-circle-fill-fs-6 ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+        <?php endwhile; ?>
 
         <!-- kartu satu -->
         <div class="row my-3 g-4 justify-content-center mx-0">
