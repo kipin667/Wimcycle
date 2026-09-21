@@ -8,59 +8,73 @@ include "../includes/header_user.php";
 ?>
 
 <!-- awal content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-12">
+<div class="container py-4">
+    <!-- Header Produk -->
+    <div class="row mb-3">
+        <div class="col-12">
             <h2>PRODUK</h2>
-            <p>wimcycle menawarkan sepeda berkualitas</p>
+            <p class="text-muted">Wimcycle menawarkan sepeda berkualitas</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-6">
-            <?php
-            if (isset($_GET[id_kategori])):
+
+    <!-- Breadcrumb dan Filter -->
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+            <?php if (isset($_GET['id_kategori'])): 
                 $id_kategori = $_GET['id_kategori'];
-                $sql = "SELECT id_kategori, nama_kategori FROM tb_kategori WHERE id_kategori = $id_kategori";
+                $sql = "SELECT id_kategori, nama_kategori FROM tb_kategori WHERE id_kategori = '$id_kategori'";
                 $sql_eksekusi = mysqli_query($koneksi, $sql);
                 $data = mysqli_fetch_array($sql_eksekusi);           
-                ?>
-                <a href="<?= base_url ?> " class="text-dark text-decoration-none link-warning fw-bold">Beranda</a> <font color='orange'>Kategori</font>
-                <p>
-                    <a href="<?= base_url ?> " class="text-dark text-decoration-none link-warning fw-bold">Beranda</a> <font color='orange'>Kategori</font>
-                </p>
-                <?php
-                else:
-            endif;
             ?>
-        <div class="col-lg-6">
-            Urut Berdasarkan
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item">
+                            <a href="<?= base_url ?>" class="text-dark text-decoration-none fw-bold">Beranda</a>
+                        </li>
+                        <li class="breadcrumb-item active text-warning fw-bold" aria-current="page">
+                            <?= isset($data['nama_kategori']) ? $data['nama_kategori'] : 'Kategori'; ?>
+                        </li>
+                    </ol>
+                </nav>
+            <?php endif; ?>
+        </div>
+        
+        <div class="col-md-6 text-md-end mt-2 mt-md-0">
+            <span>Urut Berdasarkan</span>
         </div>
     </div>
+    <?php
+    $id_kategori = isset($_GET['id_kategori']) ? mysqli_real_escape_string($koneksi, $_GET['id_kategori']) : null;
+
+    if ($id_kategori) {
+        $sql = "SELECT * FROM tb_sepeda sp 
+                INNER JOIN tb_kategori kt ON sp.id_kategori = kt.id_kategori 
+                WHERE sp.id_kategori = '$id_kategori'";
+    } else {
+        $sql = "SELECT * FROM tb_sepeda sp 
+                INNER JOIN tb_kategori kt ON sp.id_kategori = kt.id_kategori";
+    }
+
+    $sql_eksekusi = mysqli_query($koneksi, $sql);
+
+    if (!$sql_eksekusi) {
+        die("Query error: " . mysqli_error($koneksi));
+    }
+
+    if (mysqli_num_rows($sql_eksekusi) > 0) {
+        while ($data = mysqli_fetch_array($sql_eksekusi)) {
+    ?>
+            <div class="col-12 mb-2">
+                <span class="fw-bold"><?= $data['tipe_sepeda']; ?></span> 
+                <span class="text-muted">(Kategori: <?= $data['nama_kategori']; ?>)</span>
+            </div>
+    <?php
+        }
+    } else {
+        echo "<div class='col-12'><p class='text-muted'>Tidak ada produk ditemukan.</p></div>";
+    }
+    ?>
 </div>
-<?php
-
-$id_kategori = isset($_GET['id_kategori']) ? mysqli_real_escape_string($koneksi, $_GET['id_kategori']) : null;
-if ($id_kategori) {
-    $sql = "SELECT * FROM tb_sepeda sp 
-            INNER JOIN tb_kategori kt ON sp.id_kategori = kt.id_kategori 
-            WHERE sp.id_kategori = '$id_kategori'";
-} else {
-    $sql = "SELECT * FROM tb_sepeda sp 
-            INNER JOIN tb_kategori kt ON sp.id_kategori = kt.id_kategori";
-}
-
-$sql_eksekusi = mysqli_query($koneksi, $sql);
-
-if($sql_eksekusi && mysqli_num_rows($sql_eksekusi) > 0){
-    while ($data = mysqli_fetch_array($sql_eksekusi))
-        {
-            echo $data['tipe_sepeda'] . "-kategori: ". $data['nama_kategori']. "<br>";
-                    }
-};
-if (!$sql_eksekusi) {
-    die("Query error: " . mysqli_error($koneksi));
-}
-?>
 <!-- akhir content -->
 
 <?php
