@@ -22,7 +22,7 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
         ?>
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="../../assets/kategori/dealer.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
+                    <img src="../assets/kategori/dealer.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
                     
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title fw-bold text-primary"><?= $data['nama_dealer']; ?></h5>

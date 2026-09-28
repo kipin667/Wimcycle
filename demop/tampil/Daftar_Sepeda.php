@@ -23,7 +23,7 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm">
                     <!-- Elemen gambar ditambahkan di sini -->
-                    <img src="../../assets/kategori/kategori2.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
+                    <img src="../assets/kategori/kategori2.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
                     
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-primary"><?= $data['tipe_sepeda']; ?></h5>

@@ -1,7 +1,7 @@
 <?php
 include '../koneksi.php';
 
-$sql = "SELECT * FROM tb_dealer";
+$sql = "SELECT * FROM tb_kategori";
 $sql_eksekusi = mysqli_query($koneksi, $sql);
 ?>
 
@@ -16,9 +16,9 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
 <body class="bg-light">
 
 <div class="container my-5">
-    <h2 class="mb-4 text-center">Pilih Kategori Dealer</h2>
+    <h2 class="mb-4 text-center">Pilih Kategori Sepeda</h2>
 
-    <form action="tampil_filter_dealer.php" method="GET" class="col-md-6 mx-auto">
+    <form action="tampil_filter.php" method="GET" class="col-md-6 mx-auto">
         <div class="mb-3">
             <label for="" class="form-label fw-bold">Kategori</label>
             <select name="id_kategori" id="" class="form-select" required>
@@ -26,13 +26,13 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
                 <?php
                     while ($data = mysqli_fetch_array($sql_eksekusi)):
                 ?>
-                        <option value="<?= $data['nama_dealer']; ?>">
-                            <?= $data['nama_dealer']; ?>
+                        <option value="<?= $data['id_kategori']; ?>">
+                            <?= $data['nama_kategori']; ?>
                         </option>
                 <?php
                     endwhile;
                 ?>
-                <option value="semua" class="bg-warning">Semua Dealer</option>
+                <option value="semua" class="bg-warning">Semua Kategori</option>
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Tampilkan Sepeda</button>

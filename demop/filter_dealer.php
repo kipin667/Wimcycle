@@ -32,7 +32,7 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
                 <?php
                     endwhile;
                 ?>
-                <option value="semua" class="bg-warning">Semua Dealer</option>
+                <option value="semua" class="bg-warning">Semua Kategori</option>
             </select>
         </div>
         <button type="submit" class="btn btn-primary">Tampilkan Sepeda</button>

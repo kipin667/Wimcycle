@@ -1,16 +1,19 @@
 <?php
 include '../koneksi.php';
 
-$id_kategori = $_GET['id_kategori'] ?? 0;
+if (isset($_GET['id_dealer'])) {
+    $id_kategori = $_GET['id_dealer'];
+} else {
+    $id_kategori = 0;
+}
 
-if ($id_kategori == 'semua' || $id_kategori === '0' || $id_kategori === 0) {
+if ($id_kategori == 'semua' || $id_kategori == 0) {
     $sql = "SELECT * FROM tb_sepeda";
 } else {
-    $sql = "SELECT s.*, st.stok, d.nama_dealer 
+    $sql = "SELECT s.*, st.stok, st.id_dealer 
             FROM tb_stok st
             JOIN tb_sepeda s ON st.id_sepeda = s.id_sepeda
-            JOIN tb_dealer d ON st.id_dealer = d.id_dealer
-            WHERE d.nama_dealer = '$id_kategori'";
+            WHERE st.id_dealer = '$id_kategori'";
 }
 
 $sql_eksekusi = mysqli_query($koneksi, $sql);
@@ -33,14 +36,14 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
     </div>
     <div class="row">
         <?php
-    
+        // Cek apakah data sepeda ditemukan
         if (mysqli_num_rows($sql_eksekusi) > 0) :
             while ($data = mysqli_fetch_assoc($sql_eksekusi)) :
         ?>
                 <div class="col-md-3 mb-4">
                     <div class="card h-100 shadow-sm">
-            
-                        <img src="../../assets/kategori/kategori7.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
+                        <!-- Gambar Sepeda -->
+                        <img src="../assets/kategori/<?= $data['gambar_sepeda'] ?? 'default.jpg'; ?>" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
                         
                         <div class="card-body">
                             <h5 class="card-title fw-bold text-primary"><?= $data['tipe_sepeda']; ?></h5>
@@ -52,6 +55,7 @@ $sql_eksekusi = mysqli_query($koneksi, $sql);
                                 <li class="list-group-item px-0 py-1"><strong>Ukuran:</strong> <?= $data['ukuran']; ?></li>
                                 <li class="list-group-item px-0 py-1"><strong>FD / RD:</strong> <?= $data['fd']; ?> / <?= $data['rd']; ?> Speed</li>
                                 
+                                <!-- Menampilkan Stok jika bukan opsi 'semua' -->
                                 <?php if (isset($data['stok'])) : ?>
                                     <li class="list-group-item px-0 py-1 text-success"><strong>Stok Dealer:</strong> <?= $data['stok']; ?> unit</li>
                                 <?php endif; ?>

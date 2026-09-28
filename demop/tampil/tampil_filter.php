@@ -1,30 +1,42 @@
 <?php
-
 include '../koneksi.php';
-$sql = "SELECT * FROM tb_sepeda";
+
+if (isset($_GET['id_kategori'])) {
+    $id_kategori = $_GET['id_kategori'];
+} else {
+    $id_kategori = 0;
+}
+
+if ($id_kategori == 'semua') {
+    $sql = "SELECT * FROM tb_sepeda";
+} else {
+    $sql = "SELECT * FROM tb_sepeda WHERE id_kategori = '$id_kategori'";
+}
+
 $sql_eksekusi = mysqli_query($koneksi, $sql);
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Sepeda</title>
+    <title>Hasil Filter Sepeda</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
 </head>
 <body class="bg-light">
 
 <div class="container my-5">
-    <h2 class="mb-4 text-center">Daftar Sepeda</h2>
+    <h2 class="mb-4 text-center">Daftar Sepeda Terfilter</h2>
+    <div class="mb-3">
+        <a href="filter.php" class="btn btn-secondary">Kembali ke Filter</a>
+    </div>
     <div class="row">
         <?php
         while ($data = mysqli_fetch_assoc($sql_eksekusi)) :
         ?>
             <div class="col-md-3 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <!-- Elemen gambar ditambahkan di sini -->
-                    <img src="../../assets/kategori/kategori2.jpg" class="card-img-top" alt="<?= $data['tipe_sepeda']; ?>" style="height: 180px; object-fit: cover;">
-                    
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-primary"><?= $data['tipe_sepeda']; ?></h5>
                         <p class="card-text text-danger fw-bold fs-5 mb-2">
